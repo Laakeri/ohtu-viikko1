@@ -123,6 +123,6 @@ public class VarastoTest {
     @Test
     public void toStringTesti() {
         varasto.lisaaVarastoon(5);
-        assertEquals("saldo = 5, vielä tilaa 5.0", varasto.toString());
+        assertEquals("saldo = 5.0, vielä tilaa 5.0", varasto.toString());
     }
 }
